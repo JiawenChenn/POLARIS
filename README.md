@@ -45,5 +45,5 @@ username:~$ python ./train.py \
 --prefix heart_image
 ```
 
-# permutation test
-The code used for calculate permutation 
+# LDE gene detection
+The codes used for calculate log2 fold change for the simulation results are in the down_stream folder.
