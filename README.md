@@ -1,5 +1,5 @@
 # Cell composition inference and identification of layer-specific transcriptional profiles with POLARIS
-This repository contains the source code of POLARIS and all the code, preprocessed data used in the analysis.
+This repository contains the source code of POLARIS and all the code, preprocessed data used in the analysis. This repository is current under construction.
 
 ## POLARIS usage
 We begin by cloning this repository. After cloning the repository, we use the following command to perform deconvolution. POLARIS will also output the layer-specific paramters. Here is an example of performing deconvolution on the developing human heart data with and without image.
@@ -26,7 +26,7 @@ username:~$ python ./train.py \
 ```
 ### with image
 ```console
-python ./train.py \
+username:~$ python ./train.py \
 --sc_cnt ../data/heart/ISS/ref/development_heart.scRNA.processed.cnt.genexrow.tsv  \
 --sc_labels ../data/heart/ISS/ref/development_heart.scRNA.processed.mta.tsv  \
 --sc_transpose  \
@@ -45,6 +45,5 @@ python ./train.py \
 --prefix heart_image
 ```
 
-# simulation
-
 # permutation test
+The code used for calculate permutation 
