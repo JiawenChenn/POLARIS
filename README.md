@@ -2,7 +2,7 @@
 This repository contains the source code of POLARIS and all the code, preprocessed data used in the analysis. This repository is current under construction.
 
 ## POLARIS usage
-We begin by cloning this repository. After cloning the repository, we use the following command to perform deconvolution. POLARIS will also output the layer-specific paramters. Here is an example of performing deconvolution on the developing human heart data with and without image.
+We begin by cloning this repository. After cloning the repository, we use the following command to perform deconvolution. POLARIS will also output the layer-specific parameters. Here is an example of performing deconvolution on the developing human heart data with and without image.
 
 ### no image
 ```console
