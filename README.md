@@ -1,8 +1,14 @@
 # Cell composition inference and identification of layer-specific transcriptional profiles with POLARIS
-This repository contains the source code of POLARIS and all the code, preprocessed data used in the analysis. This repository is current under construction.
+This repository contains the source code of POLARIS and all the code, preprocessed data used in the analysis. This repository is currently under construction.
+
+## POLARIS main functionalities
+POLARIS is a versatile and generally applicable method for the analysis of spatial transcriptomics (ST) data. In particular, POLARIS has the following three main functionalities:
+1. estimate cell type composition of each spatial spot;
+2. detect layer-specific differentially expressed (LDE) genes, where layers refer to different anatomical or functional regions;
+3. infer layer sub-structures solely from histological images.
 
 ## POLARIS usage
-We begin by cloning this repository. After cloning the repository, we use the following command to perform deconvolution. POLARIS will also output the layer-specific parameters. Here is an example of performing deconvolution on the developing human heart data with and without image.
+Please begin by cloning this repository. After cloning the repository, the following commands can be used to perform deconvolution. POLARIS will also output the layer-specific parameters. Here is an example of performing deconvolution on the developing human heart data with and without image.
 
 ### no image
 ```console
@@ -45,5 +51,5 @@ username:~$ python ./train.py \
 --prefix heart_image
 ```
 
-# LDE gene detection
+# Detection of layer-specific differentially expressed (LDE) genes 
 The codes used for calculate log2 fold change for the simulation results are in the down_stream folder.
