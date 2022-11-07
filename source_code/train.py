@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# for lastest version, please refer to https://github.com/JiawenChenn/POLARIS
+
 import sys
 from os import mkdir, makedirs,getcwd
 import os.path as osp
@@ -359,6 +361,4 @@ pd.DataFrame(st_model.R.cpu().detach().numpy(),index=sc_data.genes,columns=sc_da
 pd.DataFrame(Tsg.cpu().detach().numpy(),columns=sc_data.genes,index=st_data.zidx.unique().numpy()).to_csv(out_dir+"/Tsg/Tsg."+prefix+"..txt")
 pd.DataFrame(nn.functional.softplus(st_model.beta).cpu().detach().numpy(),index=sc_data.genes).to_csv(out_dir+"/Tsg/Beta."+prefix+".txt")
 
-timestamp = utils.generate_identifier()
-print(timestamp)
 ###################################################################################################################################################
