@@ -8,7 +8,8 @@ POLARIS is a versatile and generally applicable method for the analysis of spati
 3. infer layer sub-structures solely from histological images.
 
 ## POLARIS usage
-Please begin by cloning this repository. After cloning the repository, the following commands can be used to perform deconvolution. POLARIS will also output the layer-specific parameters. Here is an example of performing deconvolution on the developing human heart data with and without image.
+Please begin by cloning this repository. After cloning the repository, the following commands can be used to perform deconvolution. In addition, please download mae_visualize_vit_large_ganloss.pth from https://github.com/facebookresearch/mae and put it in the same folder as the python scripts.
+POLARIS will also output the layer-specific parameters. Here is an example of performing deconvolution on the developing human heart data with and without image.
 
 ### no image
 ```console
