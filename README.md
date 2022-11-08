@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/506357107.svg)](https://zenodo.org/badge/latestdoi/506357107)
 # Cell composition inference and identification of layer-specific transcriptional profiles with POLARIS
 This repository contains the source code of POLARIS and all the code, preprocessed data used in the analysis. This repository is currently under construction.
 
