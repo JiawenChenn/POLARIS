@@ -55,3 +55,7 @@ username:~$ python ./train.py \
 
 # Detection of layer-specific differentially expressed (LDE) genes 
 The codes used for calculate log2 fold change for the simulation results are in the down_stream folder.
+
+## Citation
+Jiawen Chen et al. ,Cell composition inference and identification of layer-specific spatial transcriptional profiles with POLARIS.Sci. Adv.9,eadd9818(2023).DOI:10.1126/sciadv.add9818
+
